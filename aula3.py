@@ -119,3 +119,46 @@ pessoas1 = {
     }
 
 print (pessoas1['maria'])
+RESTANTE FOTO
+///////////////////////////09/////////////////////////
+pessoas = {
+    'maria': 20,
+    'pedro' : 15,
+    'xavier' : 40
+    }
+for item in pessoas:
+    print(item, pessoas[item])
+///////
+pessoas = {
+    'maria': 20,
+    'pedro' : 15,
+    'xavier' : 40
+    }
+for item in pessoas:
+    print(item, pessoas[item])
+    
+for valor in pessoas.values():
+    print(valor)
+    
+for chave in pessoas.keys():
+    print(chave)
+    
+for item in pessoas.items():
+    print(item)
+/////////////////////////////10/////////////////////
+    pessoas = {
+    'maria': 20,
+    'pedro' : 15,
+    'xavier' : 40
+    }
+
+alunos = {
+    'juliana': 20,
+    'pedro': 15,
+    'helena': 35
+}
+print(set(pessoas.items()))
+print (set(alunos.items()))
+inter= (set(pessoas.items()).intersection(set(alunos.items())))
+
+for item
